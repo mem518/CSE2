@@ -1,7 +1,7 @@
 // Manuel E. Mendez
 //2/17/14
 //CSE 2
-//ToHex Java Program
+//SimleGenerator Java Program
 
 //The program will output smiley faces from a random number from 1-30
 
