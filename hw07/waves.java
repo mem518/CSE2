@@ -1,5 +1,5 @@
 //Manuel E. Mendez
-//2/17/14
+//3/17/14
 //CSE 2
 //waves Java Program
 
@@ -15,8 +15,8 @@ public class waves{
         Scanner myScanner;
         myScanner=new Scanner(System.in);
         
-        System.out.println("Please enter an intger between 1 and 30.");
-        int variable;
+        System.out.println("Please enter an intger between 1 and 30.");//asks the user for an input
+        int variable; //variable for the input
         variable=myScanner.nextInt();
         
         
@@ -26,7 +26,7 @@ public class waves{
             if (whichWay==true){//the number goes down
                 for (int a=x; a>0; a--){
                     for (int b=a; b>0; b--){
-                        System.out.print(x);
+                        System.out.print(x);//prints of the numbers
                     }
                     System.out.println();
                 }
@@ -34,7 +34,7 @@ public class waves{
             else{ //the number goes up
                 for (int a=1; a<=x; a++){
                     for (int b=a; b>0; b--){
-                        System.out.print(x);
+                        System.out.print(x);//prints out the numbers
                     }
                     System.out.println();
                 }
@@ -47,10 +47,10 @@ public class waves{
         while (x<=variable){//controls the number
             if (whichWay==true){// the number goes down
                 int c=x;
-                while (c>0){
+                while (c>0){//while loop
                     int d=c;
                     while (d>0){
-                        System.out.print(x);
+                        System.out.print(x);//prints out the numbers
                         d--;
                     }
                     System.out.println();
@@ -62,7 +62,7 @@ public class waves{
                 while (e<=x){
                     int f=e;
                     while (f>0){
-                        System.out.print(x);
+                        System.out.print(x); //prints out the numbers
                         f--;
                     }
                     System.out.println();
@@ -104,5 +104,5 @@ public class waves{
             whichWay=!whichWay;
             g++;
         }while(g<=variable);
-    }
-}
+    }//end of main method
+}//end of class
